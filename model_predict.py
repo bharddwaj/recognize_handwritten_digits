@@ -31,7 +31,7 @@ import tensorflow as tf
 model = tf.keras.models.load_model('handwriting_digits.h5')
 
 
-img = cv2.imread('pictures/7.jpg')
+img = cv2.imread('some_pictures/5big.jpg')
 
 # cv2.imshow('image',img)
 # cv2.waitKey(0)
